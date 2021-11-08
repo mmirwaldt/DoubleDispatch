@@ -16,13 +16,10 @@ public class DoubleDispatchMain {
         Text text = new Text(List.of("First line", "Second line"));
         text.printOn(console);
 
-        Fraction fraction = new Fraction(20, 15);
         FileSystem fileSystem = new FileSystem();
         fileSystem.open(File.createTempFile("temp","file"));
+        Fraction fraction = new Fraction(20, 15);
         fraction.printOn(fileSystem);
         fileSystem.close();
-
-        LocalDate wrongMeetingOneWeekLater = LocalDate.of(2021, Month.JANUARY, 30);
-        System.out.println(wrongMeetingOneWeekLater.plus(1, ChronoUnit.MONTHS));
     }
 }
