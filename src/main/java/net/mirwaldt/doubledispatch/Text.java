@@ -1,7 +1,4 @@
-package net.mirwaldt;
-
-import net.mirwaldt.doubledispatch.Printable;
-import net.mirwaldt.doubledispatch.Printer;
+package net.mirwaldt.doubledispatch;
 
 import java.io.IOException;
 import java.util.List;

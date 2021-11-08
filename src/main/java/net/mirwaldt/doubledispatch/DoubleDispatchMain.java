@@ -1,14 +1,8 @@
 package net.mirwaldt.doubledispatch;
 
-import net.mirwaldt.Fraction;
-import net.mirwaldt.Text;
-
 import java.io.File;
 import java.io.IOException;
-import java.time.*;
-import java.time.temporal.ChronoUnit;
 import java.util.List;
-import java.util.Locale;
 
 public class DoubleDispatchMain {
     public static void main(String[] args) throws IOException {

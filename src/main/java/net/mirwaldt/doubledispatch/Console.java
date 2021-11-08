@@ -1,8 +1,5 @@
 package net.mirwaldt.doubledispatch;
 
-import net.mirwaldt.Fraction;
-import net.mirwaldt.Text;
-
 import java.io.IOException;
 
 public class Console implements Printer {
