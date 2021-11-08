@@ -21,7 +21,7 @@ It uses the interface Printer which is implemented by a Console class and a File
 I decided to use the name 'Printer' because the JDK already knows the interface 'Writer'.  
 I haven't found any better names.
 
-### Why does the class FileSystem use a DataOutputStream?
+### Why does the file system use a DataOutputStream in both solutions?
 I wanted to introduce an important difference between the Console and the FileSystem:
 The console prints out everything as visible characters while the file system 
 uses the binary representation of the text string and the binary representations
