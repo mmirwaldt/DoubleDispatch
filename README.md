@@ -19,7 +19,7 @@ It uses the interface Printer which is implemented by a Console class and a File
 
 ### Why do I use the name Printer?
 I decided to use the name 'Printer' because the JDK already knows the interface 'Writer'.
-I haven't found any alternative better names.
+I haven't found any better names.
 
 ### Why does the class FileSystem use a DataOutputStream?
 I wanted to introduce an important difference between the Console and the FileSystem:
