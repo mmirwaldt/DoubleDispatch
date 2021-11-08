@@ -8,13 +8,13 @@ The available printers are the console and the file system.
 They also include a Main class with a main method to illustrate how the solutions are used.
 
 ### Where can I find the solution without double dispatch?
-You can find the solution **without** double dispatch here:
-https://github.com/mmirwaldt/DoubleDispatch/tree/master/src/main/java/net/mirwaldt/no/doubledispatch
+You can find the solution **without** double dispatch here:    
+https://github.com/mmirwaldt/DoubleDispatch/tree/master/src/main/java/net/mirwaldt/no/doubledispatch   
 It uses the enum Printer and if-clauses with a printer class.
 
 ### Where can I find the solution with double dispatch?
-You can find the solution **with** double dispatch here:
-https://github.com/mmirwaldt/DoubleDispatch/tree/master/src/main/java/net/mirwaldt/doubledispatch   
+You can find the solution **with** double dispatch here:    
+https://github.com/mmirwaldt/DoubleDispatch/tree/master/src/main/java/net/mirwaldt/doubledispatch      
 It uses the interface Printer which is implemented by a Console class and a FileSystem class.
 
 ### Why was the enum and the interface Printer introduced?
